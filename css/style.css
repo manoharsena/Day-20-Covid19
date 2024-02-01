@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#data div {
+    border: 2px solid gray;
+    margin: 30px;
+    height: 380px;
+    width: 280px;
+    border-radius: 20px;
+    border: solid grey;
+    background-image: linear-gradient(285deg, #bee5ff 5%, #f9dbf4 50%);
+}
+
+#data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#data h3 {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    color: navy;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(180deg, pink, #ffffff);
+}
+
+#data p {
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+#data p:nth-child(3) {
+    color: red;
+}
+
+#data p:nth-child(4) {
+    color: green;
+}
+
+#corona .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 2px;
+    font-size: 30px;
+    color: navy;
+    background-image: linear-gradient(285deg, #bee5ff 5%, #f9dbf4 50%);
+    border-radius: 30px;
+    border: solid grey;
+    font-weight: bold;
+}
