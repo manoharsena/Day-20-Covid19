@@ -1,4 +1,4 @@
-# Day-17 Rest Countries & Weather using fetch API
+# Day-20 Covid-19 Case Details fetching from API_URL
 
 This project is to create and display the Covid-19 case details of Tamil Nadu by fetching information from the API (https://data.covid19india.org/v4/min/data.min.json).
 
